@@ -10,7 +10,7 @@
     "build": "script/build",
     "prepublishOnly": "npm run build",
     "analyze": "cem analyze --litelement",
-    "start": "web-dev-server --node-resolve --open --watch"
+    "serve": "web-dev-server --node-resolve --open --watch"
   },
   "main": "./dist/nabucasa-zigbee-flasher.js",
   "files": [

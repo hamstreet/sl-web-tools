@@ -28,8 +28,14 @@ venv/bin/pip install -r requirements.txt
 venv/bin/pip freeze > src/requirements.txt
 ```
 
-Finally, build with `npm`:
+Build with `npm`:
 
-```
+```bash
 npm run build
+```
+
+Finally, run the app (uses [Modern Web](https://modern-web.dev/docs/dev-server/overview/))
+
+```bash
+npm run serve
 ```
