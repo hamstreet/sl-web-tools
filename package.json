@@ -9,7 +9,8 @@
     "format": "eslint --ext .ts,.html src --fix --ignore-path .gitignore && prettier \"src/**/*.ts\" --write --ignore-path .gitignore",
     "build": "script/build",
     "prepublishOnly": "npm run build",
-    "analyze": "cem analyze --litelement"
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "main": "./dist/nabucasa-zigbee-flasher.js",
   "files": [
